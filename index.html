@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #container{
+       display: flex;
+    }
+
+    #details{
+        
+        width: 50%;
+        text-align: center;
+    }
+
+    #maps{
+        
+        width: 50%;
+    }
+</style>
+
+
+<body>
+
+    <div>
+        <label for = "search">Enter city name</label>
+        <input type="text" id = "search" > </br></br>
+        <input type="button" value="Submit" onclick="getlat_lon()">
+
+    </div>
+
+    <div id="container">
+
+        <div id="details"></div>
+        <div id="maps"></div>
+
+    </div>
+
+    
+</body>
+
+<script src="index.js"></script>
+</html>
